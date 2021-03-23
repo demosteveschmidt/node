@@ -2,8 +2,12 @@ Sample Node.js application
 
 To build with pack:
 
-	pack build cnb-hello-node --path . --builder index.docker.io/demosteveschmidt/ws-builder
+	$ pack build cnb-hello-node --path . --builder index.docker.io/demosteveschmidt/ws-builder
 
 To run with docker locally:
 
-	docker run -it --rm -p 8080:8080 --name cnb-hello-node cnb-hello-node
+	$ docker run -it --rm -p 8080:8080 --name cnb-hello-node cnb-hello-node
+
+To build with kpack:
+
+	see docker-image-node.yaml
